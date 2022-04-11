@@ -9,6 +9,10 @@ class share
 	    {
 		    cout << " Share Class - Display Method" << endl;
 	    }
+		~share()
+		{
+			cout<<" --- Memory is Destroyed --- "<<endl;
+		}
 };
 
 int main()

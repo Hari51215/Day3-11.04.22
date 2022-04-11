@@ -9,6 +9,10 @@ class unique
 	    {
 	    	cout << "Unique class - Display Method" << endl;
 	    }
+		~unique()
+		{
+			cout<<"Memory is destroyed";
+		}
 };
 
 int main()
